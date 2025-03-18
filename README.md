@@ -1,38 +1,38 @@
 # Miccy Lynx Playground
 
-Experimentální projekt s frameworkem Lynx.
+Experimental project with the Lynx framework.
 
-## Struktura projektu
+## Project Structure
 
-Projekt je organizován jako monorepo pomocí Turborepo:
+The project is organized as a monorepo using Turborepo:
 
-- `apps/` - obsahuje aplikace
-- `packages/` - obsahuje sdílené balíčky
+- `apps/` - contains applications
+- `packages/` - contains shared packages
 
-## Příkazy
+## Commands
 
 ```bash
-# Spuštění vývojového prostředí
+# Run development environment
 bun dev
 
-# Build všech aplikací a balíčků
+# Build all applications and packages
 bun build
 
-# Spuštění linteru
+# Run linter
 bun lint
 
-# Spuštění testů
+# Run tests
 bun test
 
-# Vyčištění cache a node_modules
+# Clean cache and node_modules
 bun clean
 
-# Formátování kódu
+# Format code
 bun format
 ```
 
-## Technologie
+## Technologies
 
-- [Bun](https://bun.sh/) - JavaScript runtime a package manager
-- [Turborepo](https://turbo.build/) - Build systém pro monorepo
+- [Bun](https://bun.sh/) - JavaScript runtime and package manager
+- [Turborepo](https://turbo.build/) - Build system for monorepo
 - [Lynx](https://lynxjs.io/) - JavaScript framework

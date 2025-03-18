@@ -1,0 +1,17 @@
+/**
+ * Cursor Rules for Project
+ */
+
+{
+  "documentation": {
+    "language": "english",
+    "comments": "english"
+  },
+  "code": {
+    "variableNames": "english",
+    "functionNames": "english"
+  },
+  "messages": {
+    "commitMessages": "english"
+  }
+} 
