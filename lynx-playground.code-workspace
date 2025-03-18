@@ -1,0 +1,43 @@
+{
+  "folders": [
+    {
+      "path": ".",
+      "name": "Lynx Playground - Root"
+    }
+  ],
+  "settings": {
+    "workspaceExplorer.workspaceStorageDirectory": "/Users/miccy/_dev_local/miccy-github/miccy/miccy-lynx-playground",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "typescript.preferences.importModuleSpecifier": "shortest",
+    "turbo.useLocalTurbo": true,
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.expo": true,
+      "**/dist": true,
+      "**/.turbo": true,
+      "**/build": true
+    },
+    "extensions.ignoreRecommendations": false,
+    "deno.enable": false,
+    "eslint.enable": true,
+    "prettier.enable": true
+  },
+  "extensions": {
+    "recommendations": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "usernamehw.errorlens",
+      "yoavbls.pretty-ts-errors",
+      "christian-kohler.path-intellisense",
+      "steoates.autoimport"
+    ]
+  }
+}
