@@ -1,0 +1,19 @@
+{
+  "name": "Turborepo Rules",
+  "description": "Rules for Turborepo configuration",
+  "include": ["turbo.json", "**/turbo/**/*.{ts,js,json}"],
+  "exclude": [],
+  "rules": {
+    "turborepo": {
+      "preferPipelineFormatting": true,
+      "preferExplicitDependsOn": true,
+      "ensureOutputsSpecified": true
+    }
+  },
+  "references": [
+    {
+      "path": "./typescript.json",
+      "condition": "**/*.ts"
+    }
+  ]
+}

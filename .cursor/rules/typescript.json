@@ -1,0 +1,22 @@
+{
+  "name": "TypeScript Rules",
+  "description": "Rules for TypeScript files",
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["**/node_modules/**"],
+  "rules": {
+    "typescript": {
+      "strictNullChecks": true,
+      "useTypeAnnotations": true,
+      "noImplicitAny": true,
+      "preferInterfaces": false,
+      "preferTypes": true,
+      "useExplicitReturnTypes": true
+    },
+    "style": {
+      "preferAsync": true,
+      "useArrowFunctions": true,
+      "useFunctionalComponents": true,
+      "importOrder": ["react", "external", "internal", "relative", "styles"]
+    }
+  }
+}

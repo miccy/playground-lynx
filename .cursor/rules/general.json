@@ -1,0 +1,24 @@
+{
+  "name": "General Project Rules",
+  "description": "Default rules for the entire project",
+  "include": ["**/*"],
+  "exclude": [],
+  "rules": {
+    "language": {
+      "documentation": "english",
+      "comments": "english",
+      "variables": "english",
+      "functions": "english",
+      "commitMessages": "english"
+    },
+    "style": {
+      "preferredQuotes": "single",
+      "tabSize": 2,
+      "maxLineLength": 100
+    },
+    "ai": {
+      "responseStyle": "concise",
+      "includePatternMatching": true
+    }
+  }
+}
