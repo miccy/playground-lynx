@@ -1,7 +1,3 @@
----
-title: Lynx Playground
----
-
 # Lynx Playground
 
 Experimental project with the Lynx framework.

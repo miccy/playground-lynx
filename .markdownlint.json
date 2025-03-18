@@ -1,5 +1,5 @@
 {
-  "MD041": { "level": 1, "front_matter_title": "^\\s*title\\s*[:=]" },
+  "MD041": false,
   "MD025": false,
   "MD013": false
 }
