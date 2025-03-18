@@ -1,3 +1,7 @@
+---
+title: Miccy Lynx Playground
+---
+
 # Miccy Lynx Playground
 
 Experimental project with the Lynx framework.
