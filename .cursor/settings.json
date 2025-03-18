@@ -1,0 +1,22 @@
+{
+  "ai": {
+    "defaultModel": "claude-3-sonnet",
+    "conversationSaveMethod": "workspace",
+    "alwaysProvideLineNumbersInChat": true,
+    "maxLinesToRead": 200
+  },
+  "formatting": {
+    "formatOnSave": true,
+    "formatEngine": "prettier"
+  },
+  "editor": {
+    "tabSize": 2,
+    "wordWrap": "on",
+    "bracketPairColorization": true,
+    "linkedEditing": true,
+    "guides": {
+      "indentation": true,
+      "bracketPairs": true
+    }
+  }
+}

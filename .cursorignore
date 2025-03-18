@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+.turbo/
+.next/
+build/
+dist/
+coverage/
+
+# Cache and logs
+.cache/
+*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+*.min.js
+*.bundle.js
+
+# Generated files
+*.generated.*
+
+# Large files
+*.lock
+*.wasm
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json 

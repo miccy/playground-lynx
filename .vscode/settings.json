@@ -1,7 +1,32 @@
 {
-  "files.exclude": {
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "turbo.useLocalTurbo": true,
+  "search.exclude": {
     "**/node_modules": true,
-    "**/.astro": true,
-    "**/dist": true
-  }
+    "**/.expo": true,
+    "**/dist": true,
+    "**/.turbo": true,
+    "**/build": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false,
+    "**/.turbo": true
+  },
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "jest.autoEnable": false,
+  "prettier.requireConfig": true
 }

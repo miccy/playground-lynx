@@ -2,8 +2,16 @@
   "folders": [
     {
       "path": ".",
-      "name": "Lynx Playground - Root"
-    }
+      "name": "Lynx Playground - Root",
+    },
+    {
+      "path": "./apps",
+      "name": "Applications",
+    },
+    {
+      "path": "./packages",
+      "name": "Packages",
+    },
   ],
   "settings": {
     "workspaceExplorer.workspaceStorageDirectory": "/Users/miccy/_dev_local/miccy-github/miccy/miccy-lynx-playground",
@@ -12,7 +20,7 @@
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true,
@@ -23,12 +31,21 @@
       "**/.expo": true,
       "**/dist": true,
       "**/.turbo": true,
-      "**/build": true
+      "**/build": true,
     },
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/node_modules": false,
+    },
+    "eslint.workingDirectories": [{ "mode": "auto" }],
+    "jest.autoEnable": false,
+    "prettier.requireConfig": true,
     "extensions.ignoreRecommendations": false,
     "deno.enable": false,
-    "eslint.enable": true,
-    "prettier.enable": true
   },
   "extensions": {
     "recommendations": [
@@ -37,7 +54,14 @@
       "usernamehw.errorlens",
       "yoavbls.pretty-ts-errors",
       "christian-kohler.path-intellisense",
-      "steoates.autoimport"
-    ]
-  }
+      "steoates.autoimport",
+      "bradlc.vscode-tailwindcss",
+      "ms-azuretools.vscode-docker",
+      "firsttris.vscode-jest-runner",
+      "rvest.vs-code-prettier-eslint",
+      "wix.vscode-import-cost",
+      "orta.vscode-jest",
+      "mikerhodes.turbo-query",
+    ],
+  },
 }
