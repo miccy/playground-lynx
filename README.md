@@ -1,8 +1,8 @@
 ---
-title: Miccy Lynx Playground
+title: Lynx Playground
 ---
 
-# Miccy Lynx Playground
+# Lynx Playground
 
 Experimental project with the Lynx framework.
 
