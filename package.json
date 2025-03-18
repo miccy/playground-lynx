@@ -9,23 +9,19 @@
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
-    "lint": "turbo lint",
+    "lint": "biome lint .",
     "lint:md": "markdownlint '**/*.md' --ignore node_modules",
     "test": "turbo test",
     "clean": "turbo clean && rm -rf node_modules",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "biome format --write .",
+    "check": "biome check --apply ."
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@turbo/gen": "^2.4.4",
     "@types/bun": "latest",
-    "@typescript-eslint/eslint-plugin": "^8.26.1",
-    "@typescript-eslint/parser": "^8.26.1",
-    "eslint": "^9.22.0",
-    "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-import": "^2.31.0",
     "markdownlint": "^0.37.4",
     "markdownlint-cli": "^0.44.0",
-    "prettier": "latest",
     "turbo": "latest",
     "typescript": "^5"
   },

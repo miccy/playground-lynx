@@ -1,10 +1,11 @@
 {
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports.biome": "explicit"
+  },
+  "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+    "editor.defaultFormatter": "biomejs.biome"
   },
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
@@ -26,7 +27,5 @@
     "**/node_modules": false,
     "**/.turbo": true
   },
-  "eslint.workingDirectories": [{ "mode": "auto" }],
-  "jest.autoEnable": false,
-  "prettier.requireConfig": true
+  "jest.autoEnable": false
 }

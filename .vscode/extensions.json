@@ -1,14 +1,13 @@
 {
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
+    "biomejs.biome",
     "usernamehw.errorlens",
     "yoavbls.pretty-ts-errors",
     "christian-kohler.path-intellisense",
     "steoates.autoimport",
     "bradlc.vscode-tailwindcss",
     "ms-azuretools.vscode-docker",
-    "rvest.vs-code-prettier-eslint",
+    "firsttris.vscode-jest-runner",
     "wix.vscode-import-cost",
     "orta.vscode-jest",
     "mikerhodes.turbo-query"

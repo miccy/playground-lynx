@@ -2,25 +2,25 @@
   "folders": [
     {
       "path": ".",
-      "name": "Lynx Playground - Root",
+      "name": "Lynx Playground - Root"
     },
     {
       "path": "./apps",
-      "name": "Applications",
+      "name": "Applications"
     },
     {
       "path": "./packages",
-      "name": "Packages",
-    },
+      "name": "Packages"
+    }
   ],
   "settings": {
-    "workspaceExplorer.workspaceStorageDirectory": "/Users/miccy/_dev_local/miccy-github/miccy/miccy-lynx-playground",
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.tabSize": 2,
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
-      "source.organizeImports": "explicit",
+      "source.organizeImports.biome": "explicit"
+    },
+    "[javascript][typescript][javascriptreact][typescriptreact][json][jsonc]": {
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "typescript.tsdk": "node_modules/typescript/lib",
     "typescript.enablePromptUseWorkspaceTsdk": true,
@@ -31,7 +31,7 @@
       "**/.expo": true,
       "**/dist": true,
       "**/.turbo": true,
-      "**/build": true,
+      "**/build": true
     },
     "files.exclude": {
       "**/.git": true,
@@ -39,28 +39,25 @@
       "**/.hg": true,
       "**/CVS": true,
       "**/.DS_Store": true,
-      "**/node_modules": false,
+      "**/node_modules": false
     },
-    "eslint.workingDirectories": [{ "mode": "auto" }],
     "jest.autoEnable": false,
-    "prettier.requireConfig": true,
     "extensions.ignoreRecommendations": false,
-    "deno.enable": false,
+    "deno.enable": false
   },
   "extensions": {
     "recommendations": [
-      "dbaeumer.vscode-eslint",
-      "esbenp.prettier-vscode",
+      "biomejs.biome",
       "usernamehw.errorlens",
       "yoavbls.pretty-ts-errors",
       "christian-kohler.path-intellisense",
       "steoates.autoimport",
       "bradlc.vscode-tailwindcss",
       "ms-azuretools.vscode-docker",
-      "rvest.vs-code-prettier-eslint",
+      "firsttris.vscode-jest-runner",
       "wix.vscode-import-cost",
       "orta.vscode-jest",
-      "mikerhodes.turbo-query",
-    ],
-  },
+      "mikerhodes.turbo-query"
+    ]
+  }
 }
