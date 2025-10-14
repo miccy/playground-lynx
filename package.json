@@ -14,7 +14,7 @@
     "check": "biome check --apply ."
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
+    "@biomejs/biome": "^2.0.0",
     "@turbo/gen": "^2.4.4",
     "@types/bun": "latest",
     "markdownlint": "^0.39.0",
